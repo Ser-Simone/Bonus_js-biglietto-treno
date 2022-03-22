@@ -11,6 +11,10 @@ let vincitore = '';
 {
     vincitore = eta + ' prima persona';
 } 
+else
+{
+    vincitore = 'hanno la stessa età';
+}
 
 
 document.getElementById("vincitore").innerHTML = vincitore;
